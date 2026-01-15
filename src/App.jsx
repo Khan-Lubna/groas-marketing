@@ -9,6 +9,7 @@ import Comparison from "./components/Comparison";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
 import { Toaster } from "./components/ui/toaster";
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Services />
         <Authority />
         <Comparison />
+        <Portfolio />
         <FinalCTA />
         <Footer />
         <Toaster />
